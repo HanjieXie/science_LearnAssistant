@@ -1,11 +1,10 @@
-// .prettierrc.js
 module.exports = {
-  semi: true,
+  arrowParens: 'avoid',
+  bracketSameLine: true,
+  bracketSpacing: true,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'all',
+  semi: true,
   printWidth: 100,
   tabWidth: 2,
-  arrowParens: 'always',
-  bracketSpacing: true,
-  endOfLine: 'lf',
 };
